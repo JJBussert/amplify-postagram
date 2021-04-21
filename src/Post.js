@@ -10,7 +10,7 @@ export default function Post() {
   const { id } = useParams()
   useEffect(() => {
     fetchPost()
-  }, [])
+  }, )
   async function fetchPost() {
     try {
       const postData = await API.graphql({

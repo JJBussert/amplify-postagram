@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "postagramedb3f952": {
+    "postagram0502b0b0": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],

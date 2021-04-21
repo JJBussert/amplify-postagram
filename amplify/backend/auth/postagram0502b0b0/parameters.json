@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "postagramedb3f952_identitypool_edb3f952",
+    "identityPoolName": "postagram0502b0b0_identitypool_0502b0b0",
     "allowUnauthenticatedIdentities": true,
-    "resourceNameTruncated": "postagedb3f952",
-    "userPoolName": "postagramedb3f952_userpool_edb3f952",
+    "resourceNameTruncated": "postag0502b0b0",
+    "userPoolName": "postagram0502b0b0_userpool_0502b0b0",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "postagedb3f952_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "postag0502b0b0_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "edb3f952",
-    "resourceName": "postagramedb3f952",
+    "sharedId": "0502b0b0",
+    "resourceName": "postagram0502b0b0",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [

@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { css } from '@emotion/css';
-import { API, Storage, Auth } from 'aws-amplify';
+import { API, Storage } from 'aws-amplify';
 import { listPosts } from './graphql/queries';
 
 import Posts from './Posts';
@@ -23,7 +23,7 @@ function Router() {
   /* fetch posts when component loads */
   useEffect(() => {
       fetchPosts();
-  }, []);
+  }, );
   async function fetchPosts() {
     /* query the API, ask for 100 items */
     let postData = await API.graphql({ query: listPosts, variables: { limit: 100 }});
