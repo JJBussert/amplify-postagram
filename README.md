@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# AWS Amplify Sample
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Content produced by following [this tutorial](https://github.com/dabit3/amplify-photo-sharing-workshop/tree/1bc64de6fc16907def03cf5ee9214868f4060e44)
+
+Remainder of this readme is the react scaffolded documentation
 
 ## Available Scripts
 
